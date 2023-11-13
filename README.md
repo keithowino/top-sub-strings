@@ -5,7 +5,7 @@ Learning how to work with substrings.
 >Love this progress? Buy me a coffee...
 ---
 
-The aim of this program is to take a single or and array of strings and determine whether they appear on a another clustered list of words, if so it will return a hash list showing how many times a particular word was detected. The appearance of a character, word or letter more than once in a single element in the dictionary array does not increase the status of the value in the hash list.
+The aim of this program is to take a single or an array of strings and determine whether they appear on a another clustered(dictionary) list of words, if so it will return a hash list showing how many times a particular word was detected. But the appearance of a character, word or letter more than once in a single element in the dictionary array does not increase the status of the value in the hash list.
 
 for instance
 

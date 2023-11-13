@@ -11,7 +11,7 @@ def substrings(str, dict)
     dict.each do |dict_str|
       if word_entry.include?(dict_str)
         if hash.has_key?(dict_str)
-          # * In the hash instances bellow, we create the hash data/ key by - hash[dict_str] and asign values to the key as either 1 or += 1.
+          # * In the hash instances bellow, we create the hash data/ key as > hash[dict_str] and asign values to the key as either 1 or += 1.
           hash[dict_str] += 1
         else
           hash[dict_str] = 1
